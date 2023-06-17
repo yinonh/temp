@@ -3,8 +3,6 @@ from rest_framework.response import Response
 import cv2
 import numpy as np
 import mediapipe as mp
-import datetime
-import os
 
 mp_holistic = mp.solutions.holistic
 mp_drawing = mp.solutions.drawing_utils
